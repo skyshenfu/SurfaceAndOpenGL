@@ -14,7 +14,7 @@ import android.view.SurfaceView;
  * 个人github地址：http://www.github.com/skyshenfu
  * 日期：2017/3/31
  * 版本：1.0.0
- * 描述：
+ * 描述：失去焦点的时候请让Surfaceviewdestory避免出现canvas不是同一个的错误
  */
 
 public class MySurfaceView extends SurfaceView implements SurfaceHolder.Callback2{
